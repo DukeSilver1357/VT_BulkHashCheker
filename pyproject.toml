@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vt-bulkhashcheker"
+version = "0.1.0"
+description = ""
+authors = ["Jonny Elrod <jelrod@reliaquest.com>"]
+readme = "README.md"
+packages = [{include = "vt_bulkhashcheker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pandas = "^2.1.4"
+tqdm = "^4.66.1"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
